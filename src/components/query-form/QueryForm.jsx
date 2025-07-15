@@ -25,7 +25,7 @@ function QueryForm() {
       `http://localhost:5555/api/v1/visa?eicNumber=${eicNumber}&crNumber=${crNumber}`
     )
       .then((res) => res.json())
-      .then((data) => setFetchData(data.data))
+      .then((data) => setFetchData(data))
       .catch((err) => setError(err));
     setIsLoading(false);
     setEicNumber("");
