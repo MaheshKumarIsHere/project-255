@@ -1,0 +1,19 @@
+.main_conatiner {
+  flex: 5;
+  padding: 0 30px;
+}
+
+.wrapper {
+  background-color: whitesmoke;
+  padding: 2px;
+  .video {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2 {
+      font-size: 40px;
+      color: lightgray;
+    }
+  }
+}

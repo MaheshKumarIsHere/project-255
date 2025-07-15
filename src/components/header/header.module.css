@@ -1,0 +1,48 @@
+.header {
+  background-color: rgb(223, 228, 240);
+}
+
+.wrapper {
+  height: 95px;
+  position: relative;
+  background: url("/header_gif.gif");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.timer {
+  position: absolute;
+  /* top: 0; */
+  left: 404px;
+  bottom: 19px;
+  font-weight: 700;
+}
+
+.loggedIn {
+  position: absolute;
+  left: 35px;
+  bottom: 7px;
+}
+
+.currentDate {
+  height: fit-content;
+  position: absolute;
+  right: 20px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  p {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  hr {
+    border: 2px solid brown;
+    margin-top: 4px;
+    width: 150px;
+    border-radius: 100%;
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,25 @@
+.main_conatiner {
+  flex: 5;
+  padding: 0 30px;
+}
+
+.wrapper {
+  background-color: whitesmoke;
+  padding: 2px;
+}
+
+.heading_1 {
+  padding: 8px 12px;
+  background-color: rgb(104, 161, 197);
+  margin: 1px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border-radius: 2px;
+}
+
+.text {
+  padding: 12px 8px;
+  background-color: yellow;
+  margin-top: 20px;
+}

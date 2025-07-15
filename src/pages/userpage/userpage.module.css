@@ -1,0 +1,21 @@
+.userpage {
+  background-color: white;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  .logoText {
+    h3 {
+      font-size: 18px;
+    }
+  }
+}
+
+.box1 {
+}

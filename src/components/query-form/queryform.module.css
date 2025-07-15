@@ -1,0 +1,112 @@
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.box {
+  display: flex;
+  /* align-items: center; */
+  gap: 6px;
+  width: 100%;
+  label {
+    background-color: rgb(104, 161, 197);
+    color: white;
+    padding: 8px;
+    width: fit-content;
+    height: fit-content;
+    white-space: nowrap;
+  }
+  input {
+    width: 100%;
+    max-width: 50%;
+    height: fit-content;
+    padding: 2px 4px;
+  }
+  .inputWrapper {
+    width: 100%;
+  }
+}
+
+.formTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  .box {
+    input {
+      max-width: 100%;
+    }
+  }
+}
+
+button {
+  padding: 4px 16px;
+  margin-right: 10px;
+}
+
+.table {
+  margin-top: 20px;
+  /* margin-bottom: 50px; */
+  width: 100%;
+  .thead {
+    background-color: rgb(104, 161, 197);
+    text-align: center;
+    height: 50px;
+    color: white;
+    font-weight: 600;
+  }
+  .tbody {
+    height: 20px;
+    td {
+      padding: 8px;
+      background-color: rgb(233, 250, 255);
+      border: 1px solid lightblue;
+    }
+  }
+}
+
+button {
+  padding: 4px 16px;
+  margin-right: 10px;
+}
+.model {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.closeBackground {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modelImg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  object-fit: contain;
+}
+.closeBtn {
+  background-color: white;
+  padding: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
